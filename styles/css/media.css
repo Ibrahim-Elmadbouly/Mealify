@@ -1,0 +1,531 @@
+
+
+@media screen and (max-width: 700px) {
+    .navBar {
+    position: relative;
+    height: 70px;
+    padding: 10px 20px;
+    z-index: 20;
+    }
+    .modeChange {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 20;
+    }
+    .hamMenu {
+    visibility: visible;
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+    padding-left: 10px;
+    z-index: 20;
+    }
+    .navItems {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+    transition: right 0.4s ease-in-out;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 30;
+    }
+    .navItems.show {
+    right: 0;
+    }
+    .navItems ul {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-left: 10px;
+    }
+    .navItems ul li {
+    text-align: left;
+    width: 100%;
+    }
+    .navItems ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    }
+    .closeMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 35;
+    display: block;
+    }
+    .homeSection {
+    height: auto;
+    padding: 15vh 0;
+    }
+    .homeContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0;
+    }
+    .homeLeft,
+    .homeRight {
+    width: 100%;
+    text-align: center;
+    }
+    .homeLeft h2 {
+    font-size: 45px;
+    }
+    .homeLeft p {
+    font-size: 14px;
+    line-height: 1.4;
+    }
+    .bookBtn,
+    .watchBtn {
+    margin: 10px auto;
+    }
+    .homeRight img {
+    width: 80%;
+    margin: 20px auto;
+    }
+    .chefSection {
+    margin: 30px 0;
+    }
+    .sectionHeader h2 {
+    font-size: 12px;
+    }
+    .sectionHeader p {
+    font-size: 30px;
+    }
+    .cardContainer {
+    flex-direction: column;
+    gap: 20px;
+    }
+    .chefCard {
+    width: 100%;
+    }
+    .chefCard h3 {
+    font-size: 16px;
+    }
+    .chefCard span {
+    font-size: 12px;
+    }
+    .chefCard p {
+    font-size: 14px;
+    }
+    .gallerySection {
+    margin: 30px 0;
+    }
+    .masonryGrid {
+    flex-direction: column;
+    gap: 10px;
+    }
+    .gridColumn {
+    width: 100%;
+    }
+    .item {
+    width: 100%;
+    }
+    .itemCover h2 {
+    font-size: 20px;
+    }
+    .itemCover p {
+    font-size: 14px;
+    }
+    .contactSection {
+    margin: 30px 0;
+    padding: 20px 0;
+    }
+    .map img {
+    width: 100%;
+    height: auto;
+    }
+    .infoGroup {
+    flex-direction: column;
+    gap: 15px;
+    }
+    .infoContainer {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    }
+    .infoIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #CE1212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    }
+    .infoContent h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #37373F;
+    margin-bottom: 5px;
+    }
+    .infoContent p, .infoContent a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #544F5A;
+    }
+    .contactForm {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    }
+    .contactForm .half {
+    width: 100%;
+    }
+    .contactForm .full, .fullText {
+    width: 100%;
+    }
+    .subBtn {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .subBtn input {
+    width: 100%;
+    padding: 12px 20px;
+    border-top-right-radius: 100vh;
+    border-top-left-radius: 100vh;
+    border-bottom-right-radius: 100vh;
+    border-bottom-left-radius: 100vh;
+    }
+    .footerSection {
+    min-height: auto;
+    padding: 20px 0;
+    }
+    .footerContainer {
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+    padding: 20px 10px;
+    }
+    .leftContainer {
+    width: 100%;
+    text-align: center;
+    gap: 15px;
+    }
+    .leftContainerR1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    }
+    .leftContainerR1 img {
+    margin: 0 auto;
+    }
+    .footerLogo {
+    font-size: 24px;
+    }
+    .leftContainerR2 p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    }
+    .middleContainer {
+    width: 100%;
+    text-align: center;
+    }
+    .middleContainer h3 {
+    font-size: 18px;
+    }
+    .middleContainer p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    }
+    .newsletterForm {
+    flex-direction: column;
+    gap: 10px;
+    }
+    .newsletterForm input,
+    .newsletterForm button {
+    width: 100%;
+    }
+    .rightContainer {
+    width: 100%;
+    text-align: center;
+    }
+    .rightContainer h3 {
+    font-size: 18px;
+    }
+    .contactInfo .infoItem {
+    justify-content: center;
+    gap: 10px;
+    }
+    .contactInfo i {
+    font-size: 20px;
+    }
+    .contactInfo p,
+    .contactInfo a {
+    font-size: 14px;
+    text-align: center;
+    }
+    }
+    @media screen and (min-width: 700px) and (max-width: 1000px) {
+    .navBar {
+    height: 10vh;
+    padding: 10px 20px;
+    }
+    .logo {
+    width: 35%;
+    }
+    .logo a, .logo h1 {
+    font-size: 24px;
+    }
+    .modeChange {
+    width: auto;
+    justify-content: flex-end;
+    }
+    .hamMenu {
+    visibility: visible;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 10px;
+    }
+    .navItems {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+    transition: right 0.4s ease-in-out;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 30;
+    }
+    .navItems.show {
+    right: 0;
+    }
+    .navItems ul {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-left: 10px;
+    }
+    .navItems ul li {
+    text-align: left;
+    width: 100%;
+    }
+    .navItems ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    }
+    .closeMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    z-index: 35;
+    }
+    .homeSection {
+    height: auto;
+    padding: 10vh 0;
+    }
+    .homeContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0;
+    }
+    .homeLeft,
+    .homeRight {
+    width: 100%;
+    text-align: center;
+    }
+    .homeLeft h2 {
+    font-size: 50px;
+    }
+    .homeLeft p {
+    font-size: 14px;
+    line-height: 1.4;
+    }
+    .bookBtn,
+    .watchBtn {
+    margin: 10px auto;
+    }
+    .homeRight img {
+    width: 90%;
+    margin: 20px auto;
+    }
+    .chefSection {
+    margin: 30px 0;
+    }
+    .sectionHeader h2 {
+    font-size: 14px;
+    }
+    .sectionHeader p {
+    font-size: 35px;
+    }
+    .cardContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .chefCard {
+    width: 48%;
+    }
+    .chefCard h3 {
+    font-size: 16px;
+    }
+    .chefCard span {
+    font-size: 12px;
+    }
+    .chefCard p {
+    font-size: 14px;
+    }
+    .gallerySection {
+    margin: 30px 0;
+    }
+    .masonryGrid {
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+    .gridColumn {
+    width: 48%;
+    }
+    .item {
+    width: 100%;
+    }
+    .itemCover h2 {
+    font-size: 20px;
+    }
+    .itemCover p {
+    font-size: 14px;
+    }
+    .contactSection {
+    margin: 30px 0;
+    padding: 20px 0;
+    }
+    .map img {
+    width: 100%;
+    height: auto;
+    }
+    .infoGroup {
+    flex-direction: column;
+    gap: 15px;
+    }
+    .infoContainer {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    }
+    .infoIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #CE1212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    }
+    .infoContent h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #37373F;
+    margin-bottom: 5px;
+    }
+    .infoContent p, .infoContent a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #544F5A;
+    }
+    .contactForm {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    }
+    .contactForm .half {
+    width: 100%;
+    }
+    .contactForm .full,
+    .fullText {
+    width: 100%;
+    }
+    .subBtn {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .subBtn input {
+    width: 100%;
+    padding: 12px 20px;
+    border-top-right-radius: 100vh;
+    border-top-left-radius: 100vh;
+    border-bottom-right-radius: 100vh;
+    border-bottom-left-radius: 100vh;
+    }
+    .footerSection {
+    min-height: auto;
+    padding: 20px 0;
+    }
+    .footerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 95%;
+    padding: 20px 10px;
+    }
+    .leftContainer,
+    .middleContainer,
+    .rightContainer {
+    width: calc(33.33% - 20px);
+    padding: 0 10px;
+    }
+    .leftContainerR1 {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+    .footerLogo {
+    font-size: 24px;
+    }
+    .leftContainerR2 p {
+    font-size: 14px;
+    line-height: 1.6;
+    }
+    .socialIcons {
+    justify-content: flex-start;
+    }
+    .middleContainer {
+    text-align: left;
+    }
+    .rightContainer {
+    text-align: left;
+    }
+    }

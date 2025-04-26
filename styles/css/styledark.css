@@ -1,0 +1,234 @@
+/* Navigation Bar Dark Mode */
+
+:root:has(input#mode:checked) body {
+  background-color: #202020;
+}
+
+:root:has(input#mode:checked) .navContainer {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .sectionHeader span {
+  color: #D78C23;
+}
+
+:root:has(input#mode:checked) body {
+  background-color: #171717;
+}
+:root:has(input#mode:checked) .navBar {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .logo a,
+:root:has(input#mode:checked) .logo h1 {
+  color: white;
+}
+
+:root:has(input#mode:checked) .dot {
+  background-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .navItems {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .navItems ul li a:hover {
+  color: white;
+}
+
+:root:has(input#mode:checked) .navItems ul li a::after {
+  background-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .navItems ul li a.active {
+  color: white;
+}
+
+:root:has(input#mode:checked) .hamMenu {
+  color: white;
+}
+
+:root:has(input#mode:checked) .closeMenu {
+  color: white;
+}
+
+/* Home Section Dark Mode */
+:root:has(input#mode:checked) .homeSection {
+  background-color: #252525;
+}
+
+:root:has(input#mode:checked) .homeLeft h2 {
+  color: white;
+}
+
+
+:root:has(input#mode:checked) .homeLeft p {
+  color: #9F9F9F;
+}
+
+:root:has(input#mode:checked) .bookBtn {
+  color: black;
+  background-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .bookBtn:hover {
+  background-color: hsl(0, 83%, 49%);
+}
+
+:root:has(input#mode:checked) .watchBtn {
+  color: white;
+}
+
+:root:has(input#mode:checked) .watchBtn:hover {
+  color: #D78C23;
+}
+
+:root:has(input#mode:checked) .watchBtn::before {
+  border-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .watchBtn::after {
+  background-color: #171717;
+  color: white;
+}
+
+:root:has(input#mode:checked) .watchBtn:hover::after {
+  color: #D78C23;
+}
+
+/* Chef Section Dark Mode */
+:root:has(input#mode:checked) .chefSection {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .sectionHeader h2 {
+  color: #D78C23;
+}
+
+:root:has(input#mode:checked) .sectionHeader p {
+  color: white;
+}
+
+:root:has(input#mode:checked) .chefCard {
+  background-color: #252525;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+:root:has(input#mode:checked) .chefCard h3 {
+  color: white;
+}
+
+:root:has(input#mode:checked) .chefCard span {
+  color: #9F9F9F;
+}
+
+:root:has(input#mode:checked) .chefCard p {
+  color: #9F9F9F;
+}
+
+:root:has(input#mode:checked) .socialIcons {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .socialIcons a {
+  color: white;
+}
+
+/* Gallery Section Dark Mode */
+:root:has(input#mode:checked) .gallerySection {
+  background-color: #252525;
+}
+
+:root:has(input#mode:checked) .itemCover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+:root:has(input#mode:checked) .itemCover h2 {
+  color: white;
+}
+
+:root:has(input#mode:checked) .itemCover p {
+  color: #9F9F9F;
+}
+
+/* Contact Section Dark Mode */
+:root:has(input#mode:checked) .contactSection {
+  background-color: #171717;
+}
+
+:root:has(input#mode:checked) .infoContainer {
+  background-color: #252525;
+}
+
+:root:has(input#mode:checked) .infoIcon::before {
+  background-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .infoIcon i {
+  color: black;
+}
+:root:has(input#mode:checked) .infoContent h3 {
+  color: white;
+}
+
+:root:has(input#mode:checked) .infoContent p,
+:root:has(input#mode:checked) .infoContent a {
+  color: #9F9F9F;
+}
+
+:root:has(input#mode:checked) .contactForm {
+  background-color: #252525;
+}
+
+:root:has(input#mode:checked) input:focus,
+:root:has(input#mode:checked) textarea:focus {
+  border-color: #D78C23;
+}
+
+:root:has(input#mode:checked) .subBtn input {
+  background-color: #D78C23;
+}
+
+/* Footer Section Dark Mode */
+
+
+:root:has(input#mode:checked) .footerLogo {
+  color: white;
+}
+
+:root:has(input#mode:checked) .leftContainerR2 p {
+  color: #9F9F9F;
+}
+
+:root:has(input#mode:checked) .socialIcons a {
+  color: white;
+}
+
+:root:has(input#mode:checked) .btn-main{
+  background-color: #D78C23;
+}
+
+
+:root:has(input#mode:checked) .middleContainer h3,
+:root:has(input#mode:checked) .rightContainer h3 {
+  color: white;
+}
+
+:root:has(input#mode:checked) .middleContainer p,
+:root:has(input#mode:checked) .rightContainer p,
+:root:has(input#mode:checked) .rightContainer a {
+  color: #9F9F9F;
+}
+
+.rightContainer ul li i  {
+  color: #D78C23;
+}
+
+:root:has(input#mode:checked) .newsletterForm input {
+  background-color: #252525;
+  color: white;
+}
+
+:root:has(input#mode:checked) .newsletterForm button {
+  background-color: #D78C23;
+}
